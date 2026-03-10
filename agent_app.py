@@ -2,7 +2,7 @@ import streamlit as st
 from agent_core import ask_agent
 
 st.set_page_config(
-    page_title="L Agent — AI Detective",
+    page_title="L Agent",
     page_icon="🧠",
     layout="centered"
 )
@@ -123,7 +123,7 @@ html, body, [class*="css"] {
 # ── Header ──────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="page-header">
-    <h1>🧠 L Agent — AI Detective</h1>
+    <h1>🧠 L Agent</h1>
     <p>LangChain · Gemini · SerpAPI</p>
 </div>
 """, unsafe_allow_html=True)
@@ -174,3 +174,4 @@ if user_input:
     </div>
 
     """, unsafe_allow_html=True)
+
