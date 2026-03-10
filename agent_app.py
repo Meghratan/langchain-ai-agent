@@ -1,24 +1,3 @@
-# import streamlit as st
-# from agent_core import ask_agent
-
-# st.set_page_config(page_title="AI Agent", page_icon="🤖")
-
-# st.title("🤖 My AI Agent")
-# st.write("Ask anything...")
-
-# # Search bar
-# user_input = st.text_input("Enter your query:")
-
-# if st.button("Search"):
-#     if user_input:
-#         with st.spinner("Thinking..."):
-#             result = ask_agent(user_input)
-#         st.success("Answer:")
-#         st.write(result)
-#     else:
-#         st.warning("Please enter a question.")
-
-# new window memory style
 import streamlit as st
 from agent_core import ask_agent
 
@@ -193,4 +172,5 @@ if user_input:
         <div class="avatar assistant">🤖</div>
         <div class="bubble assistant">{response}</div>
     </div>
+
     """, unsafe_allow_html=True)
